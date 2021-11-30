@@ -1,9 +1,20 @@
 import 'normalize.css';
 import './App.css';
-import SocialPofile from './components/SocialProfile/SocialProfile';
+import Profile from './components/Profile/Profile';
+import user from './components/Profile/user.json';
 
 function App() {
-  return <SocialPofile></SocialPofile>;
+  return (
+    <Profile
+      username={user.username}
+      tag={user.tag}
+      location={user.location}
+      avatar={user.avatar}
+      followers={user.stats.followers}
+      views={user.stats.views}
+      likes={user.stats.likes}
+    />
+  );
 }
 
 export default App;
