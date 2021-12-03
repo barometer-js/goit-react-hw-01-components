@@ -5,7 +5,7 @@ function Profile({ username, tag, location, avatar, followers, views, likes }) {
   return (
     <div className={s.container}>
       <div className={s.section}>
-        <img src={avatar} alt={username} className={s.avatar} />
+        <img src={avatar} alt={username} className={s.avatar} width="200px" />
         <p className={s.name}>{username}</p>
         <p className={s.tager}>{`@${tag}`}</p>
         <p className={s.location}>{location}</p>

@@ -1,0 +1,29 @@
+.section {
+  align-items: center;
+  width: 350px;
+  margin: 0 auto 50px;
+  border-radius: 5px;
+  box-shadow: 11px 13px 10px rgba(172, 255, 255, 1);
+  background-color: #fff;
+}
+
+.titleItem {
+  height: 50px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #0ec2b9;
+}
+
+.line {
+  text-align: center;
+  text-transform: capitalize;
+  color: rgb(117, 117, 117);
+
+  &:nth-of-type(2n + 1) {
+    background-color: rgb(212, 212, 212);
+  }
+}
+
+.item {
+  padding: 8px;
+}

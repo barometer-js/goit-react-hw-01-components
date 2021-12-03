@@ -1,0 +1,47 @@
+.list {
+  align-items: center;
+  width: 350px;
+  margin: 0 auto 50px;
+}
+
+.item {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #fff;
+  border: 1px solid rgb(228, 221, 221);
+  border-radius: 5px;
+  box-shadow: 11px 13px 10px rgba(172, 255, 255, 1);
+  padding: 8px;
+
+  &:not(:last-child) {
+    margin-bottom: 5px;
+  }
+}
+
+.statusOnline {
+  margin-right: 8px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.statusOffline {
+  margin-right: 8px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.avatar {
+  margin-right: 8px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.33;
+}
